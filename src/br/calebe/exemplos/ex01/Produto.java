@@ -13,6 +13,10 @@ public class Produto {
 	public double getPreco() {
 		return preco;
 	}
+        
+        public String getNome() {
+            return nome;
+        }
 
 	@Override
 	public boolean equals(Object obj) {
